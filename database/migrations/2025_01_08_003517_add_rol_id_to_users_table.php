@@ -13,7 +13,9 @@ return new class extends Migration
     {
         Schema::table('users', function (Blueprint $table) {
             
-            $table->unsignedBigInteger('rol_id')->after('id');
+            $table->unsignedBigInteger('rol_id')->after('id'); // Se añade la columna 'rol_id' después del campo 'id'
+            // Se establece una clave foránea para 'rol_id' que referencia el campo 'id' de la tabla 'roles'
+            // Si un rol es eliminado, también se eliminarán los usuarios asociados a ese rol (onDelete('cascade'))
             $table->foreign('rol_id')->references('id')->on('roles')->onDelete('cascade');
         });
     }
