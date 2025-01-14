@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Reservas | AnderCode</title>
+    <title>Reservas | BIRMEX</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- App favicon -->
     <link rel="shortcut icon" href="{{ asset('assets/images/Logo_blanco-1200px.png') }}">
@@ -67,8 +67,8 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-sm-10">
                         <div class="text-center mt-lg-5 pt-5">
-                            <h1 class="display-6 fw-semibold mb-3 lh-base">La mejor manera de gestionar tus asesorías con <span class="text-success">nuestros especialistas</span></h1>
-                            <p class="lead text-muted lh-base">Ofrecemos una plataforma totalmente responsive, donde puedes agendar reuniones con especialistas en diferentes áreas a un costo accesible por hora.</p>
+                            <h1 class="display-6 fw-semibold mb-3 lh-base">La mejor manera de gestionar tu visita con <span class="text-success">nuestros especialistas</span></h1>
+                            <p class="lead text-muted lh-base">Ofrecemos una plataforma totalmente responsive, donde puedes agendar tus visitas a lotes o propiedades con especialistas en Ventas de Vienes Raices</p>
                         </div>
 
                         <div class="mt-4 mt-sm-5 pt-sm-5 mb-sm-n5 demo-carousel">
@@ -402,7 +402,7 @@
 
                         <div>
                             <p class="copy-rights mb-0">
-                                <script> document.write(new Date().getFullYear()) </script> © AnderCode - Sistema de Reservas
+                                <script> document.write(new Date().getFullYear()) </script> © BIRMEX - Sistema de Reservas
                             </p>
                         </div>
                     </div>
@@ -424,7 +424,7 @@
                                     </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="https://www.linkedin.com/in/andercode/" class="avatar-xs d-block">
+                                    <a href="https://www.linkedin.com/in/BIRMEX/" class="avatar-xs d-block">
                                         <div class="avatar-title rounded-circle">
                                             <i class="ri-linkedin-fill"></i>
                                         </div>

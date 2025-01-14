@@ -44,7 +44,7 @@
                         @foreach ($reservations as $reservation)
                         <tr>
                             <td>{{ $reservation->user->nombres }} {{ $reservation->user->apellidos }}</td>
-                           
+                            <td>{{ $reservation->consultant->nombres }} {{ $reservation->consultant->apellidos }}</td>
                             <td>{{ $reservation->reservation_date }}</td>
                             <td>{{ $reservation->start_time }}</td>
                             <td>{{ $reservation->end_time }}</td>

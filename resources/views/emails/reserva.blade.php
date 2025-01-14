@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Confirmación de Reserva | AnderCode</title>
+    <title>Confirmación de Reserva | BIRMEX</title>
 </head>
 <body>
     <h2>Hola {{ $userName }},</h2>
@@ -17,6 +17,6 @@
         <li><strong>Total a pagar:</strong> ${{ $totalAmount }}</li>
     </ul>
     <p>Gracias por confiar en nosotros.</p>
-    <p>AnderCode.</p>
+    <p>BIRMEX.</p>
 </body>
 </html>

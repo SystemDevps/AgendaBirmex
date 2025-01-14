@@ -326,19 +326,19 @@ class ReservationController extends Controller
 
         try{
             $mail->isSMTP();
-            $mail->Host = 'smtp.hostinger.com';
+            $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'andercode@anderson-bastidas.com';
-            $mail->Password = 'Laravelv1@';
+            $mail->Username = 'systemdeveloperscompany@gmail.com';
+            $mail->Password = 'grgf pali osut naid';
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
             $mail->Port = 587;
 
-            $mail->setFrom('andercode@anderson-bastidas.com','AnderCode Reservas');
+            $mail->setFrom('systemdeveloperscompany@gmail.com','BIRMEX Reservas');
             $mail->addAddress($user->email);
 
             $mail->CharSet = 'UTF-8';
 
-            $mail->Subject = 'Confirmacion de Reserva - AnderCode';
+            $mail->Subject = 'Confirmacion de Reserva - BIRMEX';
 
             $html = View::make('emails.reserva',[
                 'userName' => $user->nombres .' '. $user->apellidos,
@@ -370,7 +370,7 @@ class ReservationController extends Controller
             "Hora de Fin: {$reservation->end_time}\n".
             "Costo Total: {$reservation->total_amount}\n".
             "Gracias por elegir nuestros servicios.\n".
-            "AnderCode.\n";
+            "BIRMEX.\n";
     }
 
     // Método para enviar un mensaje de WhatsApp
