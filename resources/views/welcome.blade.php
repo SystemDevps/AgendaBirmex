@@ -6,7 +6,7 @@
     <title>Reservas | BIRMEX</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- App favicon -->
-    <link rel="shortcut icon" href="{{ asset('assets/images/Logo_blanco-1200px.png') }}">
+    <link rel="shortcut icon" href="{{ asset('assets/images/log2.png') }}">
     <!--Swiper slider css-->
     <link href="{{ asset('assets/libs/swiper/swiper-bundle.min.css') }}" rel="stylesheet" type="text/css" />
     <!-- Layout config Js -->
@@ -29,8 +29,8 @@
         <nav class="navbar navbar-expand-lg navbar-landing fixed-top" id="navbar">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
-                    <img src="{{ asset('assets/images/Logo_color2-1200px.png') }}" class="card-logo card-logo-dark" alt="logo dark" height="90">
-                    <img src="{{ asset('assets/images/Logo_color2-1200px.png') }}" class="card-logo card-logo-light" alt="logo light" height="90">
+                    <img src="{{ asset('assets/images/log2.png') }}" class="card-logo card-logo-dark" alt="logo dark" height="190">
+                    <img src="{{ asset('assets/images/log2.png') }}" class="card-logo card-logo-light" alt="logo light" height="190">
                 </a>
                 <button class="navbar-toggler py-0 fs-20 text-body" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="mdi mdi-menu"></i>
@@ -390,7 +390,7 @@
                     <div class="col-lg-4 mt-4">
                         <div>
                             <div>
-                                <img src="{{ asset('assets/images/Logo_blanco-1200px.png') }}" alt="logo light" height="90">
+                                <img src="{{ asset('assets/images/log2.png') }}" alt="logo light" height="90">
                             </div>
                         </div>
                     </div>

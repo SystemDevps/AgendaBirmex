@@ -4,19 +4,19 @@
         <!-- Dark Logo-->
         <a href="index.html" class="logo logo-dark">
             <span class="logo-sm">
-                <img src="{{ asset('assets/images/Logo_blanco-1200px.png') }}" alt="" height="50">
+                <img src="{{ asset('assets/images/log2.png') }}" alt="" height="50">
             </span>
             <span class="logo-lg">
-                <img src="{{ asset('assets/images/Logo_blanco-1200px.png') }}" alt="" height="50">
+                <img src="{{ asset('assets/images/log2.png') }}" alt="" height="50">
             </span>
         </a>
         <!-- Light Logo-->
         <a href="index.html" class="logo logo-light">
             <span class="logo-sm">
-                <img src="{{ asset('assets/images/Logo_blanco-1200px.png') }}" alt="" height="78">
+                <img src="{{ asset('assets/images/log2.png') }}" alt="" height="78">
             </span>
             <span class="logo-lg">
-                <img src="{{ asset('assets/images/Logo_blanco-1200px.png') }}" alt="" height="90">
+                <img src="{{ asset('assets/images/log2.png') }}" alt="" height="90">
             </span>
         </a>
         <button type="button" class="btn btn-sm p-0 fs-20 header-item float-end btn-vertical-sm-hover" id="vertical-hover">

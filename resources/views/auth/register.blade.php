@@ -9,7 +9,7 @@
                 <div class="text-center mt-sm-1 mb-4 text-white-50">
                     <div>
                         <a href="index.html" class="d-inline-block auth-logo">
-                            <img src="{{ asset('assets/images/Logo_blanco-1200px.png') }}" alt="" height="150">
+                            <img src="{{ asset('assets/images/log2.png') }}" alt="" height="150">
                         </a>
                     </div>
                     <p class="mt-3 fs-15 fw-medium">Curso de Sistema de Reservas - BIRMEX</p>

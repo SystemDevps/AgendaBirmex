@@ -141,7 +141,9 @@
 @endsection
 
 @push('scripts')
-<script src="https://www.paypal.com/sdk/js?client-id=AZcqKzUD38WcgAL0dOW7v97VmS831oH6LFs6B1o33FbFVU6QqFLXRbAuFHlWqEdrL9Dy-E2uSjdZPXLk&currency=USD"></script>
+<script src="https://www.paypal.com/sdk/js?client-id=AbakDkbSpIzzBDKnHAJTAd6hPgUYHvz_-8ZPFwUZlPcCkvgZUycYEM25p94jeTsBLClpIlfjdFsNyCSB&currency=MXN"></script>
+
+
 
 <script>
     // Obtiene la fecha actual en formato YYYY-MM-DD y la establece como mínimo en el campo de fecha de reserva
@@ -246,5 +248,9 @@
             }
         }).render('#paypal-button-container'); // Renderiza el botón de PayPal en el contenedor
     });
+
 </script>
+
+
+
 @endpush

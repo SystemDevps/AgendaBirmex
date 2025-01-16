@@ -6,19 +6,19 @@
                 <div class="navbar-brand-box horizontal-logo">
                     <a href="index.html" class="logo logo-dark">
                         <span class="logo-sm">
-                            <img src="{{ asset('assets/images/Logo_blanco-1200px.png') }}" alt="" height="22">
+                            <img src="{{ asset('assets/images/log2.png') }}" alt="" height="22">
                         </span>
                         <span class="logo-lg">
-                            <img src="{{ asset('assets/images/Logo_blanco-1200px.png') }}" alt="" height="17">
+                            <img src="{{ asset('assets/images/log2.png') }}" alt="" height="17">
                         </span>
                     </a>
 
                     <a href="index.html" class="logo logo-light">
                         <span class="logo-sm">
-                            <img src="{{ asset('assets/images/Logo_blanco-1200px.png') }}" alt="" height="22">
+                            <img src="{{ asset('assets/images/log2.png') }}" alt="" height="22">
                         </span>
                         <span class="logo-lg">
-                            <img src="{{ asset('assets/images/Logo_blanco-1200px.png') }}" alt="" height="17">
+                            <img src="{{ asset('assets/images/log2.png') }}" alt="" height="17">
                         </span>
                     </a>
                 </div>
@@ -53,7 +53,7 @@
                     <button type="button" class="btn" id="page-header-user-dropdown" data-bs-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         <span class="d-flex align-items-center">
-                            <img class="rounded-circle header-profile-user" src="{{ asset('assets/images/Logo_color-1200px.png') }}"
+                            <img class="rounded-circle header-profile-user" src="{{ asset('assets/images/log1.png') }}"
                                 alt="Header Avatar">
                             <span class="text-start ms-xl-2">
                                 <span class="d-none d-xl-inline-block ms-1 fw-medium user-name-text">{{ Auth::user()->nombres }} {{ Auth::user()->apellidos }}</span>
