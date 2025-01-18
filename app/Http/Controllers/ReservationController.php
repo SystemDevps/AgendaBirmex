@@ -83,7 +83,8 @@ class ReservationController extends Controller
         $user = User::find($request->user_id);
         $userPhone = $user->teléfono;
         if ($userPhone) {
-            $this->sendWhastsAppMessage($userPhone, $this->generateWhatsAppMessage($reservation, $user));
+            /*$this->sendWhastsAppMessage($userPhone, $this->generateWhatsAppMessage($reservation, $user));*/
+            $this->sendWhastsAppMessage('522491347830','Hi Word');
         }
 
         return redirect()->route('reservations.index')->with('success', 'Reserva creada correctamente');
@@ -309,6 +310,8 @@ class ReservationController extends Controller
             $userPhone = $user->teléfono;
             if($userPhone){
                 $this->sendWhastsAppMessage($userPhone, $this->generateWhatsAppMessage($reservation,$user));
+
+                //$this->sendWhastsAppMessage("522491347830", "Text Hola");
             }
 
             return response()->json(['success' => true]);
@@ -375,7 +378,7 @@ class ReservationController extends Controller
 
     // Método para enviar un mensaje de WhatsApp
     protected function sendWhastsAppMessage($to,$message){
-        $sid = env('TWILIO_SID');
+        $sid = env('TWILIO_AUTH_SID');
         $token = env('TWILIO_AUTH_TOKEN');
         $twilio = new Client($sid,$token);
 

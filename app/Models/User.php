@@ -64,10 +64,10 @@ class User extends Authenticatable
     }
 
     public function reservations(){
-        return $this->hasMany(Reservations::class);
+        return $this->hasMany(Reservation::class);
     }
 
     public function consultantReservations(){
-        return $this->hasMany(Reservations::class,'consultant_id');
+        return $this->hasMany(Reservation::class,'consultant_id');
     }
 }
